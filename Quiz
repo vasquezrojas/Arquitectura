@@ -1,0 +1,35 @@
+POR QUE ES ESPECIAL EL REGISTRO %G0
+El registro G0 está fijo por medio del hardware con el valor 0.
+En él, los almacenamientos no alteran su valor.
+Los registros G1 a G7 son globales y pueden contener variables enteras, apuntadores a tablas u otros datos importantes.
+
+#########################################
+
+EJERCICIO 1
+y = (z + 3) - (y + (b + z))
+
+y = %l1
+z = %l0
+b = %l2
+
+add %l0,   3, %l3
+add %l2, %l0, %l4
+add %l1, %l4, %l4
+sub %l3, %l4, %l1
+
+#########################################
+
+EJERCICIO 2
+y[8] = y[3] + y[1] - j + z[3]
+
+y = %l0
+j = %l1
+z = %l2
+
+ld  [%l0, (3*4)], %l3
+ld  [%l0, (1*4)], %l4
+ld  [%l2, (3*4)], %l2
+add %l3, %l4, %l3
+add %l1, %l2, %l1
+sub %l3, %l1, %l1
+st  %l1, [%l0, (8*4)]
