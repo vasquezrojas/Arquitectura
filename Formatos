@@ -1,0 +1,85 @@
+int main () {
+  int p = 3014;
+  int c = 19223;
+  d[150];
+  d[22] = 32 + p;
+  d[15] = 18332;
+  return p + c + d[22];
+}
+
+
+19223 = 00000000000000000100101100010111
+	Se utilizan los primeros 22 numero y nos queda 10010 correspondiente al nro. 18
+	Se tiene en cuenta los ultimos 10 bits que son 1100010111 y corresponden al nro. 791
+
+
+18332 = 00000000000000000100011110011100
+	Se utilizan los primeros 22 numero y nos queda 10001 que son el nro. 17
+	Se tienen en cuenta los ultimos 10 bits que son 1110011100 y corresponden al nro. 924
+
+
+mov   3014, %L0			Fotmat 3
+sethi 18, %L1			Format 2
+or    %L1, 791, %L1		Format 3
+add   %L0, 32, %L0		Format 3
+st    %L0,  [%L2 + (22*4)]	Format 3
+sethi 17, %L3			Format 2
+or    %L3, 924, %L3		Format 3
+add   %L0, %L1, %L0		Format 3
+ld    [%L2 + (22*4)], %L4	Format 3
+add   %L0, %L4, %O0		Format 3
+
+
+91 [
+93 ]
+124 |
+
+mov
+Format (3)
+10|10000|000010|00000|1|0101111000110
+Hexadecimal ==> A 0 1 0 2 B C 6
+
+sethi
+Format (2)
+00|10001|100|0000000000000000010010
+Hexadecimal ==> 2 3 0 0 0 0 1 2
+
+or 
+Format (3)
+10|10001|000010|10001|1|0001100010111
+Hexadecimal ==> A 2 1 4 6 3 1 7
+
+add
+Format (3)
+10|10000|000000|10000|1|0000000100000
+Hexadecimal ==> A 0 0 4 2 0 2 0               
+
+st
+Format (3)
+11|10000|000100|10010|1|0000001011000
+Hexadecimal ==> E 0 2 4 A 0 5 8
+
+sethi
+Format (2)
+00|10011|100|0000000000000000010001
+Hexadecimal ==> 2 7 0 0 0 0 1 1
+
+or 
+Format (3)
+10|10011|000010|10011|1|0001110011100
+Hexadecimal ==> A 6 1 4 E 3 9 C
+
+add
+Format (3)
+10|10000|000000|10000|0|0000000010001
+Hexadecimal ==> A 0 0 4 0 0 1 1
+
+ld
+Format (3)
+11|10.100|0.0000.0|100.10|1|0.0000.0101.1000
+Hexadecimal ==> E 8 0 4 A 0 5 8
+
+add
+Format (3)
+10|01.000|0.0000.0|100.00|0|0.0000.0001.0100
+Hexadecimal ==>  9 0 0 4 0 0 1 4
