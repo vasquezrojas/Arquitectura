@@ -39,3 +39,17 @@
 0x1040    nop
 
 
+
+EJERCICIO 9
+=============
+int test(int a, int b, int c) {
+  int z;
+  z = a - b + c*4;
+  return z + 2;
+}
+
+int main() {
+  int p = 4, y = 2, c = -65874;
+  int x = test(p,y,c);
+  return x + 45;
+}
