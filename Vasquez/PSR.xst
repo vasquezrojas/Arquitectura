@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/xst"
+elaborate
+-ifn PSR.prj
+-ifmt mixed

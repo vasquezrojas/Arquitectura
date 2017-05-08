@@ -1,0 +1,30 @@
+V3 12
+FL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/PSR.vhd" 2017/05/02.19:51:17 P.20131013
+EN work/PSR 1493942668 \
+      FL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/PSR.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/PSR/Behavioral 1493942669 \
+      FL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/PSR.vhd" \
+      EN work/PSR 1493942668
+FL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/RF.vhd" 2017/04/24.19:06:58 P.20131013
+EN work/RF 1493772682 \
+      FL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/RF.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/RF/Behavioral 1493772683 \
+      FL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/RF.vhd" \
+      EN work/RF 1493772682
+FL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/UC.vhd" 2017/04/25.18:41:29 P.20131013
+EN work/UC 1493772225 \
+      FL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/UC.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/UC/Behavioral 1493772226 \
+      FL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/UC.vhd" \
+      EN work/UC 1493772225
+FL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/WM.vhd" 2017/05/04.19:48:57 P.20131013
+EN work/WM 1493945340 \
+      FL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/WM.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/WM/Behavioral 1493945341 \
+      FL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/WM.vhd" \
+      EN work/WM 1493945340

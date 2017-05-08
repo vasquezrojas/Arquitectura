@@ -1,0 +1,8 @@
+EN psr NULL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/PSR.vhd" sub00/vhpl06 1493942668
+EN rf NULL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/RF.vhd" sub00/vhpl04 1493772682
+AR uc behavioral "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/UC.vhd" sub00/vhpl03 1493772226
+EN uc NULL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/UC.vhd" sub00/vhpl02 1493772225
+AR psr behavioral "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/PSR.vhd" sub00/vhpl07 1493942669
+EN wm NULL "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/WM.vhd" sub00/vhpl00 1493945340
+AR wm behavioral "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/WM.vhd" sub00/vhpl01 1493945341
+AR rf behavioral "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/RF.vhd" sub00/vhpl05 1493772683

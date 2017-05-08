@@ -1,0 +1,43 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/test_Conexiones_isim_beh.exe" -prj "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/test_Conexiones_beh.prj" "work.test_Conexiones" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/UC.vhd" into library work
+Parsing VHDL file "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/SEU.vhd" into library work
+Parsing VHDL file "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/RF.vhd" into library work
+Parsing VHDL file "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/PSR.vhd" into library work
+Parsing VHDL file "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/npc.vhd" into library work
+Parsing VHDL file "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/MUX.vhd" into library work
+Parsing VHDL file "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/ModPSR.vhd" into library work
+Parsing VHDL file "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/IM.vhd" into library work
+Parsing VHDL file "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/CRUZ.vhd" into library work
+Parsing VHDL file "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/conexiones.vhd" into library work
+Parsing VHDL file "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/test_Conexiones.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package numeric_std
+Compiling architecture behavioral of entity CRUZ [cruz_default]
+Compiling architecture behavioral of entity npc [npc_default]
+Compiling architecture behavioral of entity IM [im_default]
+Compiling architecture behavioral of entity RF [rf_default]
+Compiling architecture behavioral of entity UC [uc_default]
+Compiling architecture behavioral of entity SEU [seu_default]
+Compiling architecture behavioral of entity MUX [mux_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity ModPSR [modpsr_default]
+Compiling architecture behavioral of entity PSR [psr_default]
+Compiling architecture behavioral of entity conexiones [conexiones_default]
+Compiling architecture behavior of entity test_conexiones
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 29 VHDL Units
+Built simulation executable C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/test_Conexiones_isim_beh.exe
+Fuse Memory Usage: 37372 KB
+Fuse CPU Usage: 576 ms

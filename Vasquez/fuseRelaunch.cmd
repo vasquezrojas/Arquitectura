@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/test_Conexiones_isim_beh.exe" -prj "C:/Users/PaIsA/Google Drive/Semestres/Sistemas8/Arquitectura/SparV8/Vasquez/test_Conexiones_beh.prj" "work.test_Conexiones" 

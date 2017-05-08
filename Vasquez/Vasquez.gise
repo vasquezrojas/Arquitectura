@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Vasquez.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PSR.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PSR.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="PSR.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RF.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="RF.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="RF.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="UC.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="UC.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="UC.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="WM.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="WM.stx"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="WM.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="WM.xst"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="conexiones.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_Conexiones_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_Conexiones_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_Conexiones_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_Conexiones_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1493945479" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1493945479">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493945479" xil_pn:in_ck="617077703753846611" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1493945479">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="CRUZ.vhd"/>
+      <outfile xil_pn:name="IM.vhd"/>
+      <outfile xil_pn:name="MUX.vhd"/>
+      <outfile xil_pn:name="ModPSR.vhd"/>
+      <outfile xil_pn:name="PSR.vhd"/>
+      <outfile xil_pn:name="RF.vhd"/>
+      <outfile xil_pn:name="SEU.vhd"/>
+      <outfile xil_pn:name="UC.vhd"/>
+      <outfile xil_pn:name="WM.vhd"/>
+      <outfile xil_pn:name="conexiones.vhd"/>
+      <outfile xil_pn:name="npc.vhd"/>
+      <outfile xil_pn:name="test_ALU.vhd"/>
+      <outfile xil_pn:name="test_CRUZ.vhd"/>
+      <outfile xil_pn:name="test_Conexiones.vhd"/>
+      <outfile xil_pn:name="test_IM.vhd"/>
+      <outfile xil_pn:name="test_MUX.vhd"/>
+      <outfile xil_pn:name="test_RF.vhd"/>
+      <outfile xil_pn:name="test_SEU.vhd"/>
+      <outfile xil_pn:name="test_UC.vhd"/>
+      <outfile xil_pn:name="test_npc.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1493167524" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5899864815711616624" xil_pn:start_ts="1493167524">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493167524" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4014388317220214670" xil_pn:start_ts="1493167524">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493945479" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2326777559920394622" xil_pn:start_ts="1493945479">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493167524" xil_pn:in_ck="2772015147529799647" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1493167524">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="CRUZ.vhd"/>
+      <outfile xil_pn:name="IM.vhd"/>
+      <outfile xil_pn:name="MUX.vhd"/>
+      <outfile xil_pn:name="ModPSR.vhd"/>
+      <outfile xil_pn:name="PSR.vhd"/>
+      <outfile xil_pn:name="RF.vhd"/>
+      <outfile xil_pn:name="SEU.vhd"/>
+      <outfile xil_pn:name="UC.vhd"/>
+      <outfile xil_pn:name="conexiones.vhd"/>
+      <outfile xil_pn:name="npc.vhd"/>
+      <outfile xil_pn:name="test_ALU.vhd"/>
+      <outfile xil_pn:name="test_CRUZ.vhd"/>
+      <outfile xil_pn:name="test_Conexiones.vhd"/>
+      <outfile xil_pn:name="test_IM.vhd"/>
+      <outfile xil_pn:name="test_MUX.vhd"/>
+      <outfile xil_pn:name="test_RF.vhd"/>
+      <outfile xil_pn:name="test_SEU.vhd"/>
+      <outfile xil_pn:name="test_UC.vhd"/>
+      <outfile xil_pn:name="test_npc.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1493167529" xil_pn:in_ck="2772015147529799647" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5403743145773682494" xil_pn:start_ts="1493167524">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_Conexiones_beh.prj"/>
+      <outfile xil_pn:name="test_Conexiones_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1493167529" xil_pn:in_ck="-6524196766255257079" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4555649643872812015" xil_pn:start_ts="1493167529">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_Conexiones_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>
